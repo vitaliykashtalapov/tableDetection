@@ -4,20 +4,19 @@
 
 ---
 
-## ⚙️ Установка зависимостей
+## Установка зависимостей
 
 ```bash
 pip install -r requirements.txt
 ```
 
-> **Примечание.** `ultralytics` автоматически скачает веса `yolov8n.pt` при первом запуске.
+> `ultralytics` автоматически скачает веса `yolov8n.pt` при первом запуске.
 
 ---
 
-## 🚀 Запуск
+## Запуск
 
 ```bash
-# С YOLOv8 (рекомендуется)
 python main.py --video NAME.mp4
 или python main.py --video "название видео.mp4"
 
